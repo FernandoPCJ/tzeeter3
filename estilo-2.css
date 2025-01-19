@@ -1,0 +1,287 @@
+/* Estilo geral do body */
+body {
+    background-color: white;
+    color: rgb(15, 20, 25);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para lista de navegação */
+.menu-list {
+    list-style: none;
+    padding: 1%;
+    margin: 0;
+}
+
+.menu-list li {
+    margin-bottom: 10px;
+}
+
+/* Estilo geral dos links de navegação */
+.menu-list a {
+    color: rgb(15, 20, 25);
+    text-decoration: none;
+    display: block;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.menu-list a:hover {
+    background-color: rgba(0, 123, 255, 0.1); /* Fundo azul claro */
+    color: #007bff; /* Texto azul */
+    transition: 0.3s ease; /* Suavização */
+}
+
+/* Estilo específico para tweets */
+.tweets-menu a {
+    color: rgb(15, 20, 25);
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.tweets-menu a:hover {
+    background-color: rgba(0, 123, 255, 0.1); /* Fundo azul claro */
+    color: #007bff; /* Texto azul */
+    transition: 0.3s ease;
+}
+
+/* Estilo para ícones */
+.icone {
+    width: 10%; 
+    max-width: 50px; 
+    height: auto; 
+}
+
+/* Estilo do perfil */
+.perfil {
+    width: 25%; 
+    height: 30%; 
+    position: relative; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; 
+}
+
+.perfil img {
+    width: 60%; 
+    height: 40%; 
+    object-fit: cover; 
+}
+
+/* Estilo para informações do perfil */
+.profile-info h4,
+.profile-info p {
+    color: rgb(15, 20, 25);
+}
+
+.profile-info h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(15, 20, 25);
+}
+
+.profile-local-list li,
+.profile-follow-list li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+    color: rgb(83, 100, 113);
+}
+
+.profile-info p {
+    font-size: 1rem;
+    color: rgb(83, 100, 113);
+    margin: 5px 0;
+}
+
+/* Estilo dos detalhes de localização e data de adesão */
+.profile-details span {
+    font-size: 0.9rem;
+    color: rgb(83, 100, 113);
+    display: inline-flex;
+    align-items: center;
+}
+
+.profile-details i {
+    color: rgb(83, 100, 113);
+    font-size: 1rem;
+}
+
+/* Estilo para following e followers */
+.profile-follow {
+    font-size: 0.9rem;
+    color: rgb(83, 100, 113);
+    text-align: left;
+    margin-top: 10px;
+}
+
+.profile-follow span {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.profile-follow strong {
+    font-weight: bold;
+    color: rgb(15, 20, 25);
+}
+
+.user-profile {
+    position: absolute; /* Posiciona no canto superior esquerdo */
+    top: 10px; /* Margem do topo */
+    left: 10px; /* Margem da esquerda */
+    text-align: center; /* Centraliza o nome em relação à imagem */
+}
+
+.profile-picture {
+    width: 100px; /* Define o tamanho fixo */
+    height: 100px; /* Define a altura para manter as proporções */
+    object-fit: cover; /* Ajusta a imagem para preencher o tamanho sem distorção */
+    display: block; /* Garante que seja tratada como bloco */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    max-width: 100%; /* Garante que ela nunca ultrapasse o contêiner */
+    max-height: 100%; /* Limita a altura máxima */
+}
+
+
+.user-name {
+    font-size: 0.8rem; /* Tamanho menor para o texto */
+    color: rgb(15, 20, 25);
+    font-weight: bold;
+    margin-top: 5px; /* Espaçamento entre a imagem e o nome */
+}
+.profile-description {
+    padding: 20px 0;
+}
+.profile-info h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(15, 20, 25);
+}
+.profile-info p {
+    font-size: 1rem;
+    color: rgb(83, 100, 113);
+    margin: 5px 0;
+}
+
+/* Botões do perfil */
+.profile-button {
+    margin: 10px 0;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid rgb(83, 100, 113);
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(15, 20, 25);
+    cursor: pointer;
+}
+
+.profile-button:hover {
+    background-color: rgba(0, 123, 255, 0.1); /* Fundo azul claro */
+    color: #007bff; /* Texto azul */
+    transition: 0.3s ease;
+}
+
+/* Estilo para os tweets */
+.tweet-container {
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 15px;
+}
+
+.tweet-container:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+/* Imagem de perfil nos tweets */
+.tweet-profile-pic img {
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Estilo do menu nos tweets */
+.tweet-menu a {
+    text-decoration: none;
+    color: rgb(83, 100, 113);
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.tweet-menu a:hover {
+    background-color: rgba(0, 123, 255, 0.1); /* Fundo azul claro */
+    color: #007bff; /* Texto azul */
+    transition: 0.3s ease;
+}
+
+.tweet-menu a.reply:hover,
+.tweet-menu a.share:hover {
+    background-color: rgba(0, 123, 255, 0.1); /* Fundo azul claro */
+    color: #007bff; /* Texto azul */
+}
+
+.tweet-menu a.retzeet:hover {
+    background-color: rgba(0, 186, 124, 0.1); /* Fundo verde claro */
+    color: rgba(0, 186, 124, 1);
+}
+
+.tweet-menu a.like:hover {
+    background-color: rgba(249, 24, 128, 0.1); /* Fundo rosa claro */
+    color: rgba(249, 24, 128, 1);
+}
+
+/* Estilo para as informações de tempo e arroba */
+.profile-account time,
+.profile-account span.arroba {
+    color: rgb(83, 100, 113);
+}
+
+/* Estilo para o texto dos tweets */
+article p {
+    color: rgb(15, 20, 25);
+}
+
+/* Campo de busca */
+input::placeholder {
+    color: rgb(83, 100, 113);
+}
+
+.list-group-item span {
+    display: inline; /* Exibe por padrão */
+}
+
+@media (max-width: 768px) {
+    .list-group-item span {
+        display: none; /* Esconde os textos em telas menores */
+    }
+
+    .btn span {
+        display: none; /* Esconde o texto do botão em telas menores */
+    }
+}
+.profile-tabs button {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 0.9rem;
+    text-align: center;
+    color: #007bff;
+    border: 1px solid #007bff;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+.profile-tabs button:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.profile-tabs button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
